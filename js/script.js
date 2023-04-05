@@ -1,13 +1,13 @@
-function inti(){
-  var button = document.getElementById('entrybutton');
+function init(){
+    var button = document.getElementById('entrybutton');
   
-  function showMeText(){
-    var text = document.getElementById(entryinput');
-	document.getElementById('textoutput').innerHTML = textbox.value;
-	alert("Mohammed Ouannass: " + textbox.value);
-  }
+    function showMeText(){
+      var textbox = document.getElementById('entryinput');
+      document.getElementById('textoutput').innerHTML = textbox.value;
+      alert("Mohammed Ouannass: " + textbox.value);
+    }
   
-  button.addEventListener('click', showMeText);
-  }
-  
-window.addEventListener('load', init);
+    button.addEventListener('click', showMeText);
+    }
+    
+  window.addEventListener('load', init);
